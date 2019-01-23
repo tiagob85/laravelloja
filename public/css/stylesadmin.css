@@ -1,0 +1,216 @@
+#conteudo
+{
+    /*background: #c0c0c0;*/
+    background: white;
+    width: 1300px;
+    height: 1000px;
+    margin: auto;
+    padding: 0;
+    margin-top: -30px;
+    margin-bottom: -20px;	
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.80);
+}
+
+#content
+{
+    width: 1300px;
+    height: 900px;
+}
+
+#conteudoadmin
+{
+    background: white;
+    width: 1300px;
+    height: 1000px;
+    margin: auto;
+    padding: 0;
+    margin-top: -30px;
+    margin-bottom: -20px;	
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.80);
+}
+
+
+#banner1
+{
+    width: 1300px;
+    height: 46px;
+    background-color:  #333;
+}
+
+#imagem1
+{
+    width: 1300px;
+    height: 235px;
+    background-color: navy;
+}
+
+#menu
+{
+    width: 1300px;
+    height: 40px;
+    background-color:  #333;
+}
+
+
+
+#footer
+{
+    width: 1300px;
+    height: 50px;
+    background-color:  #333;
+    position: fixed;
+    bottom: 0%;
+}
+
+#fonttext
+{
+    letter-spacing: 5px;
+    padding-left: 10px;
+    font-family: "Verdana";
+    font-size: 36px;
+    color: white;
+}
+
+#textright
+{
+    float: right;
+    padding-top: -10px;
+    padding-right: 10px;
+    padding-bottom: -10px;
+    color: white;
+}
+/* Style tab links */
+.tablink {
+    background-color: #555;
+    color: white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 20px;
+    width: 25%;
+}
+
+.tablink:hover {
+    background-color: #777;
+}
+
+/* Style the tab content (and add height:100% for full page content) */
+.tabcontent {
+    color: black;
+    display: none;
+    padding: 100px 20px;
+    height: 100%;
+}
+
+#menucadastro
+{
+    width: 310px;
+    height: 250px;
+    border: 3px;
+    background: white;
+    margin-left: -10px;
+    margin-top: -30px;
+    float: left;
+   /*box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0), 0 2px 6px 0 rgba(0, 0, 0, 0.80);    */
+    border-radius: 10px;
+}
+
+.btnop1
+{
+    width: 305px;
+    height: 63px;
+    margin-left: -1px;
+    border-radius: 10px 10px 10px 10px ;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: white;
+    font-size: 20px;
+}
+
+.btnop1:hover {
+    background-color: #555;
+    color: white;
+}
+
+.areacadastro
+{
+    width: 970px;
+    height: 500px;
+    border: 3px;
+    margin-top: -30px;
+    margin-right: -10px;
+    float: right;    
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0), 0 2px 6px 0 rgba(0, 0, 0, 0.80); 
+}
+
+.areacadastro1
+{
+    width: 970px;
+    height: 500px;
+    border: 3px;
+    margin-top: -1px;
+    margin-right: 160px;
+    float: right;    
+    border-radius: 10px;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0), 0 2px 6px 0 rgba(0, 0, 0, 0.80); 
+}
+
+.contentcad
+{
+    width: 960px;
+    height: 490px;
+    border: 3px;
+    margin-top: 5px;
+    margin-right: 5px;
+    float: right;
+
+}
+
+.table
+{
+    font-size: 15px;
+    margin-top: 1px;
+
+}
+
+.open-button {
+    background-color: rgb(6, 138, 17);
+    color: white;
+    font-size: 15px;
+    padding: 16px 20px;
+    border: none;
+    cursor: pointer;
+    opacity: 0.8;
+    bottom: 23px;
+    float: right;
+    margin-bottom: 12px;
+  }
+
+  #myInput {
+    background-image: url('/css/searchicon.png');
+    background-position: 10px 10px;
+    background-repeat: no-repeat;
+    width: 100%;
+    font-size: 16px;
+    padding: 12px 20px 12px 40px;
+    border: 1px solid #ddd;
+    margin-bottom: 12px;
+  }
+
+  .form-popup {
+    display: none;
+    position: fixed;
+    bottom: 0;
+    right: 15px;
+    border: 3px solid #f1f1f1;
+    z-index: 9;
+    width: 500px;
+  }
+
+  .form-container {
+    max-width: 300px;
+    padding: 10px;
+    background-color: white;
+  }

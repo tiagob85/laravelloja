@@ -1,0 +1,350 @@
+#conteudo
+{
+    /*background: #c0c0c0;*/
+    background: white;
+    width: 1300px;
+    height: 1000px;
+    margin: auto;
+    padding: 0;
+    margin-top: -30px;
+    margin-bottom: -20px;	
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.80);
+}
+
+#conteudoadmin
+{
+    background: white;
+    width: 1300px;
+    height: 2000px;
+    margin: auto;
+    padding: 0;
+    margin-top: -30px;
+    margin-bottom: -20px;	
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0), 0 6px 20px 0 rgba(0, 0, 0, 0.80);
+}
+
+
+#banner1
+{
+    width: 1300px;
+    height: 46px;
+    background-color:  #333;
+}
+
+#imagem1
+{
+    width: 1300px;
+    height: 235px;
+    background-color: navy;
+}
+
+#menu
+{
+    width: 1300px;
+    height: 40px;
+    background-color:  #333;
+}
+
+.catalogo
+{
+    margin-top: 5px;
+    margin-right: 1px;
+    width: 1095px;
+    height: 604px;
+    background-color: rgb(255, 255, 255);
+    float: right; 
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0), 0 6px 10px 0 rgba(0, 0, 0, 0.80);
+}
+
+.secao
+{
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 200px;
+    height: 396px;
+    background-color: #eee;   
+    float: left;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0), 0 2px 6px 0 rgba(0, 0, 0, 0.80);
+}
+
+.secao button
+{
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 20px 20px;
+    width: 200px;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 18px;
+    font-family: Verdana;
+    margin-top: 1px;
+    border: 1px solid #ccc;    
+}
+
+.secao button:hover
+{    
+    font-size:  22px;  
+    padding-left: 5px;
+    background-color: #ddd;
+}
+
+.secao button.active
+{
+    background-color: #ccc; 
+}
+
+#footer
+{
+    width: 1300px;
+    height: 50px;
+    background-color:  #333;
+    position: fixed;
+    bottom: 0%;
+}
+
+.tabcontent
+{
+    /*color: white;
+    display: none;
+    padding: 50px;
+    text-align: center;*/
+
+    margin-top: 5px;
+    margin-right: 1px;
+    width: 1095px;
+    height: 614px;
+    background-color: rgb(255, 255, 255);
+    float: right; 
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0), 0 6px 10px 0 rgba(0, 0, 0, 0.80);    
+}
+
+.tablinks
+{
+    background-color: #555;
+    color : white;
+    float: left;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 14px 16px;
+    font-size: 20px;
+    width: 100%;
+}
+
+.tablink:hover
+{
+    background-color : #777;
+    width:  inherit;
+}
+
+#fonttext
+{
+    letter-spacing: 5px;
+    padding-left: 10px;
+    font-family: "Verdana";
+    font-size: 36px;
+    color: white;
+}
+
+#textright
+{
+    float: right;
+    padding-top: -10px;
+    padding-right: 10px;
+    padding-bottom: -10px;
+    color: white;
+}
+
+#defaultOpen
+{
+    text-align: center;
+    color: white;
+    font-family: Verdana;
+    font-size: 22px;
+    background-color: #333;
+    padding: 15px 20px;
+    padding-left: 15px;
+    margin-top: 1px;
+}
+
+.tab {
+/*    float: left;
+    border: 1px solid #ccc;
+    background-color: #f1f1f1;
+    width: 30%;
+    height: 300px;*/
+
+    margin-top: 1px;
+    margin-left: 1px;
+    width: 200px;
+    height: 396px;
+    background-color: #eee;   
+    float: left;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0), 0 2px 6px 0 rgba(0, 0, 0, 0.80);    
+}
+
+.tab button
+{
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 20px 20px;
+    width: 200px;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 18px;
+    font-family: Verdana;
+    margin-top: 1px;
+    border: 1px solid #ccc;    
+}
+
+.tab button:hover
+{    
+    font-size:  22px;  
+    padding-left: 5px;
+    background-color: #ddd;
+}
+
+.tab button.active
+{
+    background-color: #ccc; 
+}
+
+/*Pagina Admin*/
+
+.tabadmin
+{
+  /*  margin-top: 1px;
+    margin-left: 1px;*/
+    width: 200px;
+    height: 396px;
+    background-color: #eee;   
+    float: left;
+    box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0), 0 2px 6px 0 rgba(0, 0, 0, 0.80);   
+}
+
+.tabcontentadmin
+{
+    float: right; 
+    margin-top: 1px;
+    margin-right: 1px;
+    width: 1095px;
+    height: 1200px;
+    background-color: rgb(255, 255, 255);
+
+    box-shadow: 0 1px 5px 0 rgba(0, 0, 0, 0), 0 6px 10px 0 rgba(0, 0, 0, 0.80);    
+}
+
+.tabadmin button
+{
+    display: block;
+    background-color: inherit;
+    color: black;
+    padding: 20px 20px;
+    width: 200px;
+    border: none;
+    outline: none;
+    text-align: center;
+    cursor: pointer;
+    transition: 0.2s;
+    font-size: 18px;
+    font-family: Verdana;
+    margin-top: 1px;
+    border: 1px solid #ccc;    
+}
+
+#panel,#panel1,#panel2,#painel3,#flip
+{
+    padding: 10px 80px;
+    margin-right: 10px;
+    margin-left: 10px;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+#panel,#panel1,#panel2, #painel3
+{
+    display: none;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}
+
+
+/*#panel1
+{
+    display: none;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+}*/
+
+.btform1,.btform2,.btform3,.btform4
+{
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;    
+    cursor: pointer;
+}
+
+/*.btform2
+{
+    padding: 10px;
+    margin-top: 5px;
+    margin-right: 10px;
+    margin-left: 10px;
+    text-align: center;
+    font-size: 18px;
+    font-family: Verdana;
+    background-color: #e5eecc;
+    border: solid 1px #c3c3c3;
+    cursor: pointer;    
+}*/
+
+#field
+{
+    margin-top: 2px;
+    font-size: 16px;
+    font-family: Verdana;
+}
+
+
+.btn {
+    background-color: rgb(38, 65, 218);
+    color: white;
+    padding: 12px;
+    margin: 5px 0;
+    border: none;
+    width: 100%;
+    border-radius: 3px;
+    cursor: pointer;
+    font-size: 17px;
+}
+
+.btn:hover {
+    background-color: #4CAF50;
+  }
+
+#fieldesq
+{
+    margin-top: 2px;
+    font-size: 16px;
+    font-family: Verdana;      
+    float: right;
+}
+
+.alert
+{
+    color: #ff0000    
+}
